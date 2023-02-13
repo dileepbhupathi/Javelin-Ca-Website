@@ -1,0 +1,153 @@
+.javelin-ca-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6%;
+  background-color: rgba(0, 0, 0, 0.01);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.01);
+  position: fixed;
+  width: 88%;
+}
+
+.javelin-ca-nav-hamburger {
+  font-size: 1.55em;
+}
+
+.cross-icon {
+  animation-name: zoomOut;
+  animation-duration: 0.4s;
+  opacity: 1;
+}
+
+@keyframes zoomOut {
+  from {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.zoomOut {
+  animation-name: zoomOut;
+}
+
+.menu-icon {
+  animation-name: zoomIn;
+  animation-duration: 0.4s;
+  opacity: 1;
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.zoomIn {
+  animation-name: zoomIn;
+}
+
+.javelin-ca-menu-container {
+  background-color: #232323;
+  padding: 6%;
+  box-sizing: border-box;
+}
+
+.javelin-ca-menu-links {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 17px 0;
+  text-decoration: none;
+  word-wrap: break-word;
+  display: block;
+  color: #fff;
+  box-sizing: border-box;
+  // border-bottom: 1px solid gray;
+}
+
+.menu-link-container::after {
+  content: "";
+  display: block;
+  left: 5%;
+  right: 0;
+  position: absolute;
+  height: 1px;
+  background-color: #303030;
+  width: 90%;
+}
+
+.link-container::after {
+  content: "";
+  display: block;
+  left: 5%;
+  right: 0;
+  position: absolute;
+  height: 1px;
+  background-color: transparent;
+  width: 90%;
+}
+
+.menu-link {
+  color: #aaa;
+}
+
+.javelin-ca-menu-links-container {
+  margin-bottom: 10%;
+}
+
+.ant-input {
+  border-color: #232323;
+  transition: all 0.2s;
+  background-color: #232323;
+}
+
+.ant-input::placeholder {
+  color: gray;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 25px;
+  font-style: italic;
+  margin-top: 5%;
+}
+
+.ant-input-affix-wrapper {
+  box-sizing: border-box;
+  border-color: #232323;
+  background-color: #232323;
+}
+
+.nav-menu-search-icon {
+  font-size: 26px;
+  color: #aaa;
+}
+
+.javelim-ca-menu-social-icons-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.javelin-ca-menu-social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #aaa;
+  border-left: 0;
+  border-bottom: 0;
+  width: 50%;
+  height: 10vh;
+  background-color: #232323;
+  color: #aaa;
+}

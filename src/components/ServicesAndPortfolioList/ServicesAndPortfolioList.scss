@@ -1,0 +1,33 @@
+.services-portfolio-list-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service-portfolio-list-item {
+    display: flex;
+    margin-bottom: 2.5em;
+    padding: 0 1em;
+}
+
+.service-portfolio-icon {
+    font-size: 4em;
+    height: 10vh;
+}
+
+.service-portfolio-list-item-content-container {
+    margin-left: 1em;
+}
+
+.service-portfolio-list-item-content-title {
+    margin: 0;
+    margin-bottom: 0.5em;
+    font-size: 1.125em;
+    font-weight: 500;
+}
+
+.service-portfolio-list-item-content-decscription {
+    margin: 0;
+    color: #c4b6f8;
+    font-size: 0.95em;
+    width: 85%;
+}

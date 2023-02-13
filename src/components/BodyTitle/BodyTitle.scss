@@ -1,0 +1,50 @@
+.body-title-container {
+    background-color: rgba(24, 23, 23, 0.027);
+    padding: 10%;
+    padding-bottom: 0;
+}
+
+.body-title {
+    margin-top: 0;
+    padding-top: 10%;
+    font-size: 2.75em;
+    font-weight: 800;
+    font-family: inherit;
+    color: #303030;
+}
+
+.play-button {
+    color: #303030;
+    border: 1px solid white;
+    width: 22%;
+    height: 10vh;
+    display:inline-flex ;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: white;
+    margin-right: 2%;
+}
+
+.play-icon {
+    font-size: 1.5em;
+}
+
+.javelin-ca-demo-button-container {
+    display: flex;
+}
+
+.play-content {
+    color: #363636f1;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.title-image {
+    width: 100%;
+}
+
+.title-image-container {
+    position: relative;
+}
+
