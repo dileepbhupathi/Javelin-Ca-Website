@@ -1,4 +1,21 @@
 .projects-and-achivements-container {
     background-color: #363636;
     // position: relative;
+    font-size: 16px;
+    padding-top: 139em;
+}
+
+.view-all-projects-button-container {
+    text-align: center;
+    padding: 3em 0 10em;
+
+}
+
+.view-all-projects-button {
+    font-size: 0.8em;
+    border-radius: 50px;
+    background-color: #fe774a;
+    color: #ffffff;
+    border-color: transparent;
+    padding: 1.5em 3.55em 2.75em;
 }
